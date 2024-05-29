@@ -101,6 +101,8 @@ h1 {
     text-align: center;
     font-size: 18px;
     padding: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .aconfira {
@@ -166,7 +168,7 @@ h1 {
     max-width: 600px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 410px;
+    height: 460px;
 }
 
 .boxservicos3 {
@@ -250,7 +252,7 @@ h1 {
     transform: scale(1.5);
 }
 
-@media(max-width:640px) {
+@media(max-width: 768px) {
     .container,
     .hero {
         flex-direction: column;
@@ -276,15 +278,18 @@ h1 {
     nav, 
     li,
     ul {
+        height: 200px;
         flex-direction: column;
-        margin-top: 60px;
-        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 32px;
+        padding-bottom: 5px;
     }
     .boxservicos1 {
         height: 800px;
     }
     .boxservicos2 {
-        height: 580px;
+        height: 630px;
     }
     .boxservicos3 {
         height: 720px;
@@ -297,6 +302,14 @@ h1 {
     }
     .textcontato {
         width: 300px;
+    }
+    .textfooter {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+    .confira {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
