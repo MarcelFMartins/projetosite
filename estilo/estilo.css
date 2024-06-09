@@ -411,8 +411,8 @@ h1 {
     }
     .hero-footer {
         flex-direction: column;
-        margin-top: 150px;
-        margin-bottom: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .contatohero {
         text-align: center;
@@ -542,6 +542,10 @@ h1 {
         text-align: center;
         margin-left: 0px;
         margin-right: 55px;
+    }
+    .hr2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
 
